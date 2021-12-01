@@ -1,3 +1,5 @@
+import sys
+
 def read_AA_tables(fname):
   AA_abbr=dict()
   with open(fname,'r') as f:
