@@ -7,3 +7,9 @@ def read_AA_tables(fname):
       cols=aline.split(',')
       AA_abbr[cols[1]]=cols[0]
   return AA_abbr
+
+def main():
+  read_AA_tables(sys.argv[2])
+
+if __name__ == "__main__":
+  main()
