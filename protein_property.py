@@ -11,7 +11,7 @@ def read_AA_tables(fname):
   return AA_abbr
 
 def main():
-  read_AA_tables(sys.argv[1])
+  print(read_AA_tables(sys.argv[1]))
 
 if __name__ == "__main__":
   main()
